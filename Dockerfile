@@ -1,4 +1,4 @@
-FROM redash/redash:8.0.2.b37747
+FROM redash/redash:10.0.0.b50363
 
 COPY datalab_ds.py /app/redash/query_runner/
 COPY __init__.py /app/redash/settings/
